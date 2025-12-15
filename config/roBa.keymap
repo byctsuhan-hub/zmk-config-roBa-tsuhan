@@ -73,6 +73,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -100,15 +101,16 @@
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
-           //  sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+
+            //  sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NUM {
             bindings = <
-&kp EQUAL                   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                            &kp F1     &kp F2          &kp F3           &kp F4         &kp F5
-&kp LEFT_SHIFT              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SEMICOLON)  &kp LC(LA(KP_NUMBER_0))      &none   &kp APOS   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH  &kp RIGHT_SHIFT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS          &kp STAR                     &trans  &kp UNDER  &kp SEMICOLON   &kp COMMA        &kp PERIOD     &kp BACKSLASH
-&trans                      &trans        &trans        &trans        &trans             &trans                       &trans  &trans                                                     &kp PIPE
+&kp EQUAL                   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                                     &kp F1          &kp F2            &kp F3             &kp F4         &kp F5
+&kp LEFT_SHIFT              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SEMICOLON)  &kp LC(LA(KP_NUMBER_0))      &none            &kp APOS        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS          &kp STAR                     &kp NON_US_HASH  &kp UNDERSCORE  &kp SEMICOLON     &kp COMMA          &kp PERIOD     &kp NON_US_BSLH
+&trans                      &trans        &trans        &trans        &trans             &trans                       &trans           &trans                                                              &kp PIPE
             >;
         };
 
