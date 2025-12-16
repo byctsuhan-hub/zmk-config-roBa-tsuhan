@@ -107,10 +107,10 @@
 
         NUM {
             bindings = <
-&kp EQUAL                   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                            &kp F1               &kp F2            &kp F3             &kp F4         &kp F5
-&kp LEFT_SHIFT              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SEMICOLON)  &kp LC(LA(KP_NUMBER_0))      &none   &kp APOS             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS          &kp STAR                     &none   &kp INTERNATIONAL_1  &kp SEMICOLON     &kp COMMA          &kp PERIOD     &kp NON_US_BSLH
-&trans                      &trans        &trans        &trans        &trans             &trans                       &trans  &trans                                                                   &kp PIPE
+&kp LEFT_SHIFT  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                       &kp EQUAL                &kp LS(SEMI)      &kp MINUS          &kp STAR       &kp INTERNATIONAL_1
+&kp LEFT_SHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &none   &kp APOS                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none                        &none   &kp RS(INTERNATIONAL_1)  &kp SEMICOLON     &kp COMMA          &kp PERIOD     &kp NON_US_BSLH
+&trans          &trans        &trans        &trans        &trans        &trans                       &trans  &trans                                                                       &kp PIPE
             >;
         };
 
@@ -125,10 +125,10 @@
 
         SCROLL {
             bindings = <
-&kp LEFT_SHIFT    &kp LC(W)      &kp LC(E)  &kp R      &kp T                       &kp Y     &kp U    &kp LG(I)    &kp TAB        &kp RIGHT_ALT
-&kp LC(A)         &kp LS(LG(S))  &kp LG(D)  &kp LC(F)  &kp G   &trans      &trans  &kp H     &kp J    &kp K        &kp LC(LS(L))  &kp RIGHT_SHIFT
-&kp LEFT_GUI      &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp B   &none       &trans  &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN  &kp RIGHT_CONTROL
-&kp LEFT_CONTROL  &trans         &trans     &trans     &trans  &trans      &trans  &trans                                         &trans
+&kp LEFT_SHIFT            &kp LC(W)      &kp LC(E)  &kp R      &kp T                       &kp Y     &kp U    &kp LG(I)    &kp TAB        &kp RIGHT_ALT
+&kp LC(A)                 &kp LS(LG(S))  &kp LG(D)  &kp LC(F)  &kp G   &trans      &trans  &kp H     &kp J    &kp K        &kp LC(LS(L))  &kp RIGHT_SHIFT
+&kp LEFT_GUI              &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp B   &none       &trans  &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN  &kp RIGHT_CONTROL
+&kp LS(LG(LEFT_BRACKET))  &trans         &trans     &trans     &trans  &trans      &trans  &trans                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
