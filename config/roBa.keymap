@@ -116,7 +116,7 @@
 
         MOUSE {
             bindings = <
-&kp LEFT_GUI      &none           &kp UP_ARROW    &none            &none                           &none   &none     &none     &none     &kp RIGHT_GUI
+&kp LEFT_GUI      &none           &kp UP_ARROW    &none            &none                           &none   &none     &none     &kp TAB   &kp RIGHT_ALT
 &kp LEFT_SHIFT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &trans          &trans  &none   &mkp MB1  &mkp MB3  &mkp MB2  &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &none           &none           &none            &none   &kp ESCAPE      &trans  &none   &mkp MB4  &none     &mkp MB5  &kp RIGHT_CONTROL
 &none             &trans          &trans          &trans           &trans  &trans          &trans  &trans                                &trans
