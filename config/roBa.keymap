@@ -125,10 +125,10 @@
 
         SCROLL {
             bindings = <
-&kp LEFT_SHIFT            &kp LC(W)      &kp LC(E)  &kp R      &kp T                       &kp Y     &kp U    &kp LG(I)    &kp TAB        &kp RIGHT_ALT
-&kp LC(A)                 &kp LS(LG(S))  &kp LG(D)  &kp LC(F)  &kp G   &trans      &trans  &kp H     &kp J    &kp K        &kp LC(LS(L))  &kp RIGHT_SHIFT
-&kp LEFT_GUI              &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp B   &none       &trans  &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN  &kp RIGHT_CONTROL
-&kp LS(LG(LEFT_BRACKET))  &trans         &trans     &trans     &trans  &trans      &trans  &trans                                         &trans
+&kp LEFT_SHIFT  &kp LC(W)      &kp LC(E)  &kp R      &kp T                       &kp Y     &kp U                     &kp LG(I)    &kp TAB        &kp RIGHT_ALT
+&kp LC(A)       &kp LS(LG(S))  &kp LG(D)  &kp LC(F)  &kp G   &trans      &trans  &kp H     &kp LG(LS(LEFT_BRACKET))  &kp K        &kp LC(LS(L))  &kp RIGHT_SHIFT
+&kp LEFT_GUI    &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp B   &none       &trans  &kp HOME  &kp END                   &kp PAGE_UP  &kp PAGE_DOWN  &kp RIGHT_CONTROL
+&trans          &trans         &trans     &trans     &trans  &trans      &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
