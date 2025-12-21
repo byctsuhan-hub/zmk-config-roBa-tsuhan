@@ -107,10 +107,10 @@
 
         NUM {
             bindings = <
-&kp LEFT_SHIFT  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                       &kp EQUAL                &kp LS(SEMI)      &kp MINUS          &kp STAR       &kp INTERNATIONAL_1
-&kp LEFT_SHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &none   &kp APOS                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none                        &none   &kp RS(INTERNATIONAL_1)  &kp SEMICOLON     &kp COMMA          &kp PERIOD     &kp NON_US_BSLH
-&trans          &trans        &trans        &trans        &trans        &trans                       &trans  &trans                                                                       &kp PIPE
+&kp LEFT_SHIFT    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                       &kp EQUAL                &kp LS(SEMI)      &kp MINUS          &kp STAR       &kp INTERNATIONAL_1
+&kp LEFT_SHIFT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &none   &kp APOS                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none                        &none   &kp RS(INTERNATIONAL_1)  &kp SEMICOLON     &kp COMMA          &kp PERIOD     &kp NON_US_BSLH
+&trans            &trans        &trans        &trans        &trans        &trans                       &trans  &trans                                                                       &kp DELETE
             >;
         };
 
